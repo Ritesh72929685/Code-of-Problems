@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// Time Complexity = O(logn)
+
 int power(int x ,int n){
     int res = 1;
     while(n > 0){
