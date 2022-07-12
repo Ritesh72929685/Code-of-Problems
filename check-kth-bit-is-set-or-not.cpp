@@ -25,28 +25,6 @@ int main()
 
 // **************Method 2 using Right shift operator *****************
 
-/*
-#include<iostream>
-using namespace std;
-
-bool kthBit(int n, int k)
-{
-    if((( n >> k) & 1 ) == 1)
-    {
-        return true;
-    }
-    
-    return false;
-   
-}
-int main(){
-    int n, k;
-    cin>>n>>k;
-    cout<<kthBit(n,k);
-    return 0;
-}
-
-*/
 
 #include<iostream>
 using namespace std;
